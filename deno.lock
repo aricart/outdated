@@ -1,0 +1,69 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@aricart/cobra@^0.0.15": "0.0.15",
+    "jsr:@aricart/runtime@^0.0.1": "0.0.1",
+    "jsr:@std/fmt@^1.0.3": "1.0.4",
+    "jsr:@std/path@^1.0.8": "1.0.8",
+    "npm:minimist@^1.2.8": "1.2.8",
+    "npm:oniguruma-to-es@1.0.0": "1.0.0"
+  },
+  "jsr": {
+    "@aricart/cobra@0.0.15": {
+      "integrity": "5de03673379d7fde65073e2968e8a9da7d56963f15699c1985bdaf0a7d610780",
+      "dependencies": [
+        "jsr:@aricart/runtime",
+        "jsr:@std/fmt",
+        "npm:minimist"
+      ]
+    },
+    "@aricart/runtime@0.0.1": {
+      "integrity": "dabb1796d66582841ccd58d14b282720b75eb02013f6d2a62e2e80f5d670d653"
+    },
+    "@std/fmt@1.0.4": {
+      "integrity": "e14fe5bedee26f80877e6705a97a79c7eed599e81bb1669127ef9e8bc1e29a74"
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    }
+  },
+  "npm": {
+    "emoji-regex-xs@1.0.0": {
+      "integrity": "sha512-LRlerrMYoIDrT6jgpeZ2YYl/L8EulRTt5hQcYjy5AInh7HWXKimpqx68aknBFpGL2+/IcogTcaydJEgaTmOpDg=="
+    },
+    "minimist@1.2.8": {
+      "integrity": "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA=="
+    },
+    "oniguruma-to-es@1.0.0": {
+      "integrity": "sha512-kihvp0O4lFwf5tZMkfanwQLIZ9ORe9OeOFgZonH0BQeThgwfJiaZFeOfvvJVnJIM9TiVmx0RDD35hUJDR0++rQ==",
+      "dependencies": [
+        "emoji-regex-xs",
+        "regex",
+        "regex-recursion"
+      ]
+    },
+    "regex-recursion@5.1.1": {
+      "integrity": "sha512-ae7SBCbzVNrIjgSbh7wMznPcQel1DNlDtzensnFxpiNpXt1U2ju/bHugH422r+4LAVS1FpW1YCwilmnNsjum9w==",
+      "dependencies": [
+        "regex",
+        "regex-utilities"
+      ]
+    },
+    "regex-utilities@2.3.0": {
+      "integrity": "sha512-8VhliFJAWRaUiVvREIiW2NXXTmHs4vMNnSzuJVhscgmGav3g9VDxLrQndI3dZZVVdp0ZO/5v0xmX516/7M9cng=="
+    },
+    "regex@5.1.1": {
+      "integrity": "sha512-dN5I359AVGPnwzJm2jN1k0W9LPZ+ePvoOeVMMfqIMFz53sSwXkxaJoxr50ptnsC771lK95BnTrVSZxq0b9yCGw==",
+      "dependencies": [
+        "regex-utilities"
+      ]
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@aricart/cobra@^0.0.15",
+      "jsr:@std/assert@1.0.10",
+      "jsr:@std/path@^1.0.8"
+    ]
+  }
+}
